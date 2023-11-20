@@ -7,3 +7,5 @@ class Producto(models.Model):
     descripcion = models.TextField(null=False, max_length=200, verbose_name="Descripción Producto")
     existencias = models.IntegerField(null=False, verbose_name="Existencias Producto")
     precio = models.DecimalField(null=False, decimal_places=2, max_digits=12, verbose_name="Precio Producto")
+
+
